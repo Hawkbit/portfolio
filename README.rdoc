@@ -1,0 +1,4 @@
+== README
+
+A simple portfolio app for Shawn Shrader. 
+Contact: hawkbit@gmail.com
