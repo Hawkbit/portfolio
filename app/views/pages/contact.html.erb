@@ -1,7 +1,36 @@
 <% provide(:title, "Contact") %>
-<div class="center jumbotron">
-<h2 class="text-left">Email: hawkbit@gmail.com</h2>
-<h2 class="text-left">GitHub: <a href="https://github.com/Hawkbit">Hawkbit</a></h2>
-<h2 class="text-left">LinkedIn: <a href="https://www.linkedin.com/pub/shawn-shrader/82/49/931">Shawn</a></h2>
-<h2 class="text-left">Twitter: <a href="https://twitter.com/_hawkbit">@_hawkbit</a></h2>
+<div class="container">
+	<div class="center jumbotron">
+		<div class="row">
+			<h2 class="text-left">
+				<div class="col-sm-6">
+					<%= link_to image_tag("email.png", alt: "Email: hawkbit@gmail.com", class: "img-responsive") %>
+					<p>Email: hawkbit@gmail.com</p>
+				</div>
+			</h2>
+			<h2 class="text-left">
+				<div class="col-sm-6">
+					<%= link_to image_tag("Octocat.png", alt: "GitHub: Hawkbit", class: "img-responsive"), 
+						'https://github.com/Hawkbit' %>
+					<p>GitHub: Hawkbit</p>
+				</div>
+			</h2>
+		</div>
+		<div class="row">	
+			<h2 class="text-left">
+				<div class="col-sm-6">
+					<%= link_to image_tag("linkedin.png", alt: "Linkedin for Shawn Shrader", class: "img-responsive"), 
+						'https://www.linkedin.com/pub/shawn-shrader/82/49/931' %>
+					<p>LinkedIn: Shawn Shrader</p>
+				</div>
+			</h2>
+			<h2 class="text-left">
+				<div class="col-sm-6">
+					<%= link_to image_tag("twitter.png", alt: "Twitter: @_hawkbit", class: "img-responsive"), 
+						'https://twitter.com/_hawkbit' %>
+					<p>Twitter: @_hawkbit</p>
+				</div>	
+			</h2>
+		</div>
+	</div>
 </div>

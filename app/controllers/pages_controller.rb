@@ -11,6 +11,9 @@ class PagesController < ApplicationController
   def code
   end
 
+  def info
+  end
+
   def download_pdf
   send_file(
     "#{Rails.root}/public/shrader_resume.pdf",
